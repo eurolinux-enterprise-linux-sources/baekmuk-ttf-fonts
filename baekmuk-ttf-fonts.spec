@@ -9,7 +9,7 @@ This package provides the free Korean TrueType fonts.
 
 Name:           %{fontname}-fonts
 Version:        2.2
-Release:        35%{?dist}
+Release:        36%{?dist}
 Summary:        Free Korean TrueType fonts
 
 Group:          User Interface/X
@@ -175,6 +175,9 @@ cd -
 %{_bindir}/iconv -f EUC-KR -t UTF-8 COPYRIGHT.ks > COPYRIGHT.ko
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2-36
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.2-35
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 

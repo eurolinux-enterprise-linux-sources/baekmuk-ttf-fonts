@@ -1,0 +1,64 @@
+%
+% Hangul Font Configuration File (FreeType)
+%  Jan. 17, Choi, Jun Ho <junker@jazz.snu.ac.kr>
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Example:
+% 	/Batang-Medium		4400000	(fontpath)	FreeTypehangul
+%
+% Descriptions:
+% 	/Batang-Medium
+%		is the name of the Hangul font group to be installed.
+%
+%	4400000
+%		is the offset of the identifiers to be used by the group.
+%		You should specify the offset at intervals of 200,
+%		because each font group uses about 170 identifiers.
+%
+%	(fontpath)
+%		is the path name of the TrueType font(.ttc or .ttf).
+%		Unicode(2.0) encoded or Wansung(pid 3, eid 5) encoded fonts
+%		can be used.
+%
+%	FreeTypehangul
+%		is the operator to install Hangul font groups
+%	        using `FreeType'.
+%       
+%	
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Hangul Font
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%/Batang-Medium		4400000 (/usr/local/share/VFlib/fonts/batang.ttc) FreeTypehangul
+%/Gulim-Medium		4400200 (/usr/local/share/VFlib/fonts/gulim.ttc) FreeTypehangul
+%/Webbatang-Medium	4400400 (/usr/local/share/VFlib/fonts/web_bt_w.ttc) FreeTypehangul
+%/Batang-Medium		4400000 (/usr/share/fonts/hangul/ghostscript/ttf/batang.ttc) FreeTypehangul
+%/Webbatang-Medium	4400400 (/usr/share/fonts/hangul/ghostscript/ttf/web_bt_w.ttc) FreeTypehangul
+%/Cyberbit-Medium	4400600 (/usr/share/fonts/hangul/ghostscript/ttf/cyberbit.ttf) FreeTypehangul
+%
+% Baekmuk Font
+%
+/Batang-Regular		4400000 (/usr/share/fonts/baekmuk/batang.ttf) FreeTypehangul
+%/Batang-Bold		4400200 (/usr/share/fonts/baekmuk/batang.ttf) FreeTypehangul
+/Gulim-Regular		4400400 (/usr/share/fonts/baekmuk/gulim.ttf) FreeTypehangul
+%/Gulim-Bold		4400600 (/usr/share/fonts/baekmuk/gulim.ttf) FreeTypehangul
+/Dotum-Regular		4400800 (/usr/share/fonts/baekmuk/dotum.ttf) FreeTypehangul
+%/Dotum-Bold		4401000 (/usr/share/fonts/baekmuk/dotum.ttf) FreeTypehangul
+/Headline-Regular	4401200 (/usr/share/fonts/baekmuk/hline.ttf) FreeTypehangul
+%/Headline-Bold		4401400 (/usr/share/fonts/baekmuk/hline.ttf) FreeTypehangul
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Hangul Font Aliases
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%/Batang-Medium		/MS-Batang-Medium copycomphangulfont
+%/Gulim-Medium		/MS-Gulim-Medium copycomphangulfont
+%/Webbatang-Medium	/Hanyang-Webbatang-Medium copycomphangulfont
+%/Cyberbit-Medium	/Bitstream-Cyberbit-Medium copycomphangulfont
